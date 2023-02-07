@@ -34,10 +34,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.dorlingMapToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.StableDorlingMapForToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.centralTPMapToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tileMapToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -57,10 +54,7 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dorlingMapToolStripMenuItem,
-            this.StableDorlingMapForToolStripMenuItem,
-            this.centralTPMapToolStripMenuItem,
-            this.tileMapToolStripMenuItem});
+            this.centralTPMapToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
@@ -68,33 +62,12 @@
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // dorlingMapToolStripMenuItem
-            // 
-            this.dorlingMapToolStripMenuItem.Name = "dorlingMapToolStripMenuItem";
-            this.dorlingMapToolStripMenuItem.Size = new System.Drawing.Size(108, 24);
-            this.dorlingMapToolStripMenuItem.Text = "DorlingMap";
-            this.dorlingMapToolStripMenuItem.Click += new System.EventHandler(this.dorlingMapToolStripMenuItem_Click);
-            // 
-            // StableDorlingMapForToolStripMenuItem
-            // 
-            this.StableDorlingMapForToolStripMenuItem.Name = "StableDorlingMapForToolStripMenuItem";
-            this.StableDorlingMapForToolStripMenuItem.Size = new System.Drawing.Size(158, 24);
-            this.StableDorlingMapForToolStripMenuItem.Text = "Stable DorlingMap";
-            this.StableDorlingMapForToolStripMenuItem.Click += new System.EventHandler(this.StableDorlingMapForToolStripMenuItem_Click);
-            // 
             // centralTPMapToolStripMenuItem
             // 
             this.centralTPMapToolStripMenuItem.Name = "centralTPMapToolStripMenuItem";
             this.centralTPMapToolStripMenuItem.Size = new System.Drawing.Size(136, 24);
             this.centralTPMapToolStripMenuItem.Text = "Central-TP-Map";
             this.centralTPMapToolStripMenuItem.Click += new System.EventHandler(this.centralTPMapToolStripMenuItem_Click);
-            // 
-            // tileMapToolStripMenuItem
-            // 
-            this.tileMapToolStripMenuItem.Name = "tileMapToolStripMenuItem";
-            this.tileMapToolStripMenuItem.Size = new System.Drawing.Size(80, 24);
-            this.tileMapToolStripMenuItem.Text = "TileMap";
-            this.tileMapToolStripMenuItem.Click += new System.EventHandler(this.tileMapToolStripMenuItem_Click);
             // 
             // splitter1
             // 
@@ -205,16 +178,13 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.Splitter splitter1;
         private System.Windows.Forms.StatusStrip statusStrip1;
-        private System.Windows.Forms.ToolStripMenuItem dorlingMapToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem removeTheLayerToolStripMenuItem;
         private AxESRI.ArcGIS.Controls.AxToolbarControl axToolbarControl1;
         private AxESRI.ArcGIS.Controls.AxTOCControl axTOCControl1;
         private AxESRI.ArcGIS.Controls.AxMapControl axMapControl1;
         private AxESRI.ArcGIS.Controls.AxLicenseControl axLicenseControl2;
-        private System.Windows.Forms.ToolStripMenuItem StableDorlingMapForToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem centralTPMapToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem tileMapToolStripMenuItem;
     }
 }
 

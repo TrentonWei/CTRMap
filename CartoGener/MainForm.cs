@@ -40,17 +40,6 @@ namespace CartoGener
         ILayer pLayer;
 
         /// <summary>
-        /// DorlingMap Create Form
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void dorlingMapToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            DorlingMapFrm DMF = new DorlingMapFrm(this.axMapControl1);
-            DMF.Show();
-        }
-
-        /// <summary>
         /// Remove the layers
         /// </summary>
         /// <param name="sender"></param>
@@ -118,16 +107,6 @@ namespace CartoGener
             }
         }
 
-        /// <summary>
-        /// Stable DorlingMap Create Form
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void StableDorlingMapForToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            StableDorlingMapFrm SDMF=new StableDorlingMapFrm(this.axMapControl1);
-            SDMF.Show();
-        }
 
         /// <summary>
         /// Central TP Map
@@ -138,17 +117,6 @@ namespace CartoGener
         {
             Central_TP_MapFrm CTPF = new Central_TP_MapFrm(this.axMapControl1);
             CTPF.Show();
-        }
-
-        /// <summary>
-        /// TileMap
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void tileMapToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            TileMap TM = new TileMap(this.axMapControl1);
-            TM.Show();
         }
     }
 }

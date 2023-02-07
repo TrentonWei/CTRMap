@@ -84,3 +84,7 @@ C:\WorkFiles\06 代码集合\DorlingMap\CartoGener\bin\x86\Debug\AxInterop.esriC
 C:\WorkFiles\06 代码集合\DorlingMap\CartoGener\obj\x86\Debug\CartoGener.exe
 C:\WorkFiles\06 代码集合\DorlingMap\CartoGener\obj\x86\Debug\CartoGener.pdb
 C:\WorkFiles\06 代码集合\DorlingMap\CartoGener\obj\x86\Debug\CartoGener.TileMap.resources
+C:\WorkFiles\06 代码集合\CTRMap\CartoGener\obj\x86\Debug\AxInterop.esriControls.dll
+C:\WorkFiles\06 代码集合\CTRMap\CartoGener\obj\x86\Debug\CartoGener.csproj.ResolveComReference.cache
+C:\WorkFiles\06 代码集合\CTRMap\CartoGener\obj\x86\Debug\CartoGener.exe
+C:\WorkFiles\06 代码集合\CTRMap\CartoGener\obj\x86\Debug\CartoGener.pdb
